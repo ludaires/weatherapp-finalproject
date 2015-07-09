@@ -26,7 +26,7 @@ forecasts.each do |f|
     name_day = day.strftime('%A')
   end
 
-  puts name_day + ' is goint to be ' + f['text'].downcase + ' with a low of ' + f['low'].to_s + ' and a hight of '+ f['hight'].to_s
+  puts name_day + ' is goint to be ' + f['text'].downcase + ' with a low of ' + f['low'].to_s + ' and a high of '+ f['high'].to_s
 
 end
 
